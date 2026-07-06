@@ -1,2 +1,2 @@
 # hvctl
-A kubectl-like command-line interface for managing Hyper-V.
+Command-line tools for managing Hyper-V.
