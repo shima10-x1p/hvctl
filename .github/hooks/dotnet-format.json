@@ -1,0 +1,13 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "type": "command",
+        "windows": "pwsh -NoProfile -ExecutionPolicy Bypass -File .github/hooks/scripts/dotnet-format-check.ps1",
+        "linux": "pwsh -NoProfile -File .github/hooks/scripts/dotnet-format-check.ps1",
+        "osx": "pwsh -NoProfile -File .github/hooks/scripts/dotnet-format-check.ps1",
+        "timeout": 60
+      }
+    ]
+  }
+}
